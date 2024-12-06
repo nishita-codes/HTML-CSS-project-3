@@ -39,22 +39,19 @@ nav {
     align-items: center;
     height: 62px;
 }
-nav{
-    position:sticky;
-}
-
 nav img {
     color: red;
     width: 130px;
     position: relative;
     z-index: 10;
+    
 }
 
 nav button {
     position: relative;
     z-index: 10;
+    
 }
-
 .hero {
     font-family: "Martel Sans", sans-serif;
     /* font-family: "Netflix Sans", "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif; */
@@ -69,25 +66,21 @@ nav button {
     gap: 2px;
     padding: 0px 30px;
 }
-
 .hero> :first-child {
     font-weight: bolder;
     font-size: 40px;
     text-align: center;
 }
-
 .hero> :nth-child(2) {
     font-weight: 600;
     font-size: 24px;
     text-align: center;
 }
-
 .hero> :nth-child(3) {
     font-weight: 500;
     font-size: 20px;
     text-align: center;
 }
-
 #email input {
     background-color: black;
     padding: 10px 10px;
@@ -97,12 +90,10 @@ nav button {
     border-color: white;
     border: 3px;
 }
-
 .separation {
     height: 5px;
     background-color: rgb(57, 55, 55);
 }
-
 .btn {
     padding: 0.5rem 1.5rem;
     font-weight: bold;
@@ -111,7 +102,6 @@ nav button {
     font-size: 1rem;
     border-radius: 20px;
 }
-
 .btn-red {
     background-color: red;
     color: white;
@@ -122,7 +112,6 @@ nav button {
     font-size: 20px;
     cursor: pointer;
 }
-
 .btn-red-sm {
     background-color: red;
     color: white;
@@ -132,7 +121,6 @@ nav button {
     font-weight: bold;
     cursor: pointer;
 }
-
 .first{
     font-family: "Martel Sans", sans-serif;
     color: white;
@@ -149,14 +137,12 @@ nav button {
     display: flex;
     justify-content: center;
     align-items: center;
-    
 }
 .secImg2{
     display: flex;
     justify-content: center;
     align-items: center;
 }
-
 .trendingImg img{
     position:relative;
     height:280px;
@@ -172,7 +158,6 @@ nav button {
     border-radius:30px;
     box-sizing: border-box;
     cursor: pointer;
-
 }
 .trendingImg:hover{
     transform: scale(1.1);
@@ -182,8 +167,9 @@ nav button {
 }
 .section-container .box{
     width: 280px;
-    height: 230px;
-    border: 1px solid silver;
+    height: 180px;
+    color:white;
+    border: 1px solid #443c3c;
     border-radius: 20px;
     font-size:20px;
     padding:7px 15px;
@@ -202,7 +188,6 @@ nav button {
 .section-container #box-4:hover{
     background-color:#672e7a;
 } 
-
 .section-container{
 display: flex;
 justify-content: center;
@@ -210,7 +195,6 @@ align-items: center;
 margin-left:100px;
 margin-right:100px;
 }
-
 #box-1{
     padding-top: 40px;
     background-color: #3b2056;
@@ -226,13 +210,11 @@ margin-right:100px;
 #box-4{
     padding-top: 40px;
     background-color:#441a52;
-    
-    
 }
 .quality{
     color:silver;
     font-size:20px;
-    padding-top:0px;
+    padding-top:5px;
 }
 .provide{
     display:flex;
@@ -242,12 +224,84 @@ margin-right:100px;
     padding-left:15px;
 }
 .price{
-    padding-top:20px;
+    padding-top:40px;
 }
 #box-1 .price{
-    padding-top:50px;
+    padding-top:40px;
 }
 #plan .h-primary{
     font-size:24px;
     font-weight: bolder;
+    color:white;
+    margin-left:122px;
 }
+.join .h-secondary{
+    color:white;
+    font-size:40px;
+    margin-left:118px;
+    margin-top:15px;
+}
+.section-container-2 .reason-to-join{
+    width: 280px;
+    height: 100px;
+    color:white;
+    border: 1px solid #504a4a;
+    border-radius: 25px;
+    font-size:20px;
+    padding:10px 15px;
+    margin:8px;
+    cursor:pointer;
+    background-color:#242323;
+}
+.section-container-2{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.h-quadrant{
+    color:white;
+    font-size:45px;
+    margin-left:118px;
+    margin-top:25px;
+}
+.section-container-3 .freq-ques{
+    width:1260px;
+    height:40px;
+    flex-direction:column;
+    color:white;
+    border: 1px solid #504a4a;
+    border-radius: 12px;
+    font-size:25px;
+    background-color:#242323;
+    cursor:pointer;
+    margin-left:100px;
+    margin-top:10px;
+    padding: 10px 25px;
+    text-align:justify;
+}
+.questions .freq-ques{
+    padding-top:23px;
+}
+.section-container-3 .freq-ques:hover{
+  background-color:#454444 ;
+}
+.button-1{
+ margin: 51px 680px;
+ background-color: red;
+ color: white;
+ padding: 10px 20px;
+ border-color: red;
+ border-radius: 20px;
+ font-weight: bold;
+ font-size: 20px;
+ cursor: pointer;
+}
+.footer .para{
+    text-align: center;
+    color:white;
+    margin-top:-40px;
+}
+
+
+
+
